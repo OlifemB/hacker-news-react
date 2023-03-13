@@ -40,7 +40,8 @@ const FullNews = () => {
                         size="small"
                         disabled={!comments.data}
                         onClick={() => comments.refetch()}
-                    >Refetch
+                    >
+                        Refetch
                     </Button>
                 </Box>
 
