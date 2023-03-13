@@ -15,7 +15,6 @@ const FullNews = () => {
     const comments = postApi.useGetCommentsByIdQuery(Number(id!))
     const navigate = useNavigate()
 
-    console.log(post.data)
     return (
         <Container maxWidth="sm">
 
