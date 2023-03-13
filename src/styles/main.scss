@@ -1,0 +1,17 @@
+html{
+  font-family: 'Roboto', serif;
+}
+
+body{
+  background-color: #eee;
+}
+
+a {
+  color: #333;
+  transition-duration: .3s;
+  font-weight: 600;
+
+  &:hover {
+    color: #000;
+  }
+}
